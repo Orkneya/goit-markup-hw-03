@@ -1,0 +1,173 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+ul, ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.page-header {}
+.header-nav {}
+.logo {
+    font-family:"Raleway",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.header-logo .logo-part{
+    color: #2E2F42;
+}
+.nav-list {}
+.nav-item {}
+.nav-link {
+    color: #2e2f42; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link-sand:hover,
+.contacts-link-sand:focus{
+    color: #404bbf;
+}
+.contacts{
+    font-style: normal;
+}
+.contacts-link {
+}
+.contacts-link-item {
+}
+.contacts-link-sand {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.32px;
+}
+/* 1 section */
+.main-effect {
+    background-color: #2E2F42;
+}
+.main-effect-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    font-weight: 700; 
+    letter-spacing: 1.12px;
+}
+.main-effect-button {
+    color: #fff;
+    cursor: pointer;
+    background-color: #4d5ae5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.64px; 
+}
+.main-effect-button:hover,
+.main-effect-button:focus{
+    background-color: #404bbf;
+}
+/* 2 section */
+.main-advantages {
+}
+.visually-hidden {
+   /* присвоїти hidden; */
+}
+.main-advantages-list {
+}
+.main-advantages-item {
+}
+.main-advantages-subtitle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.4px;
+}
+.main-advantages-text {
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.32px;
+}
+/* 3 section our team  */
+.main-team {
+    background-color:#F4F4FD;
+}
+.main-team-title,
+.function-title {
+    text-transform: capitalize;
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11; 
+    letter-spacing: 0.72px;
+}
+.main-team-list {
+}
+.main-team-imam {
+    background-color: #fff;
+}
+.main-team-foto {
+}
+.main-team-subtitle {
+    text-transform: capitalize;
+    color: #2E2F42;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.4px;
+}
+.main-team-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.32px;
+}
+/* 4 section function   */
+.function {
+}
+.function-title{
+    text-transform: capitalize;
+}
+.function-list {
+}
+.function-item {
+}
+.function-picture {
+}
+.function-subtitle{
+    color: #2E2F42;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.function-text {
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.32px;
+}
+.footer-page {
+    background-color: #2E2F42;
+}
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.32px;
+}
+.footer-logo .logo-part {
+    color:#F4F4FD;
+}
