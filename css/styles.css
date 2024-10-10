@@ -3,14 +3,38 @@ body {
     color: #434455;
     background-color: #fff;
 }
-ul, ol {
-    list-style-type: none;
-}
 a {
     text-decoration: none;
 }
-.page-header {}
-.header-nav {}
+/* reset */
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+/* comit */
+.conteiner {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* header */
+.header-conteiner{
+   display: flex; 
+   align-items: center;
+}
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-nav,
+.contacts-link,
+.nav-list{
+    display: flex;
+    align-items: center;
+}
 .logo {
     font-family:"Raleway",sans-serif;
     font-size: 18px;
@@ -23,13 +47,21 @@ a {
 .header-logo .logo-part{
     color: #2E2F42;
 }
-.nav-list {}
+.header-logo{
+    padding: 24px 0;
+    margin-right: 76px;
+}
 .nav-item {}
+.nav-list {
+    gap: 40px;
+}
 .nav-link {
+    margin: 24px 0;
+    display: block;
     color: #2e2f42; 
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     letter-spacing: 0.32px;
 }
 .nav-link:hover,
@@ -40,8 +72,12 @@ a {
 }
 .contacts{
     font-style: normal;
+    margin-left: auto;
 }
 .contacts-link {
+    display: flex;
+    padding: 24px 0;
+    gap: 40px;
 }
 .contacts-link-item {
 }
@@ -64,7 +100,7 @@ a {
     letter-spacing: 1.12px;
 }
 .main-effect-button {
-    color: #fff;
+    color: #FFF;
     cursor: pointer;
     background-color: #4d5ae5;
     font-size: 16px;
@@ -86,7 +122,9 @@ a {
 }
 .main-advantages-item {
 }
-.main-advantages-subtitle {
+.main-advantages-subtitle
+.main-team-subtitle 
+.function-subtitle {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -119,17 +157,12 @@ a {
 }
 .main-team-foto {
 }
-.main-team-subtitle {
-    text-transform: capitalize;
-    color: #2E2F42;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2; 
-    letter-spacing: 0.4px;
-}
+.main-team-subtitle,
 .main-team-text {
     text-align: center;
+}
+.main-team-text,
+.function-text {
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.32px;
@@ -137,27 +170,11 @@ a {
 /* 4 section function   */
 .function {
 }
-.function-title{
-    text-transform: capitalize;
-}
 .function-list {
 }
 .function-item {
 }
 .function-picture {
-}
-.function-subtitle{
-    color: #2E2F42;
-    text-transform: capitalize;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-}
-.function-text {
-    font-size: 16px;
-    line-height: 1.5; 
-    letter-spacing: 0.32px;
 }
 .footer-page {
     background-color: #2E2F42;
