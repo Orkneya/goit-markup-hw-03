@@ -128,7 +128,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 .main-advantages-list {
     display: flex;
-    width: calc((100%-3*24px)/4);
+    width: calc( ( 100% - 72 ) / 4);
     gap: 24px;
 }
 .main-advantages-item {
@@ -175,7 +175,7 @@ h1,h2,h3,h4,h5,h6,p {
 .main-team-list {
     display: flex;
     align-items: center;
-    width: calc((100%-3*24px)/4);
+    width: calc( ( 100% - 72 ) / 4);
     gap: 24px;   
 }
 .main-team-imam {
@@ -206,8 +206,8 @@ h1,h2,h3,h4,h5,h6,p {
     gap: 48px 24px;
 }
 .function-item {
-    width: calc((100%-24*2)/3);
-}
+    width: calc( ( 100% - 72 ) / 3 );
+} 
 .function-picture {
     display: block;
 }
