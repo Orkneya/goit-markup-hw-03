@@ -56,8 +56,8 @@ h1,h2,h3,h4,h5,h6,p {
     gap: 40px;
 }
 .nav-link {
-    margin: 24px 0;
     display: block;
+    padding: 24px 0;
     color: #2e2f42; 
     font-size: 16px;
     font-weight: 500;
@@ -89,9 +89,13 @@ h1,h2,h3,h4,h5,h6,p {
 }
 /* 1 section */
 .main-effect {
+    padding: 188px 0;
     background-color: #2E2F42;
 }
 .main-effect-title {
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
     color: #FFF;
     text-align: center;
     font-size: 56px;
@@ -100,6 +104,9 @@ h1,h2,h3,h4,h5,h6,p {
     letter-spacing: 1.12px;
 }
 .main-effect-button {
+    display: block;
+    margin: 0 auto; 
+    min-width: 169px;
     color: #FFF;
     cursor: pointer;
     background-color: #4d5ae5;
@@ -114,16 +121,26 @@ h1,h2,h3,h4,h5,h6,p {
 }
 /* 2 section */
 .main-advantages {
+    padding: 120px 0;
 }
 .visually-hidden {
    /* присвоїти hidden; */
 }
 .main-advantages-list {
+    display: flex;
+    width: calc((100%-3*24px)/4);
+    gap: 24px;
 }
 .main-advantages-item {
 }
 .main-advantages-subtitle
-.main-team-subtitle 
+{
+    /* display: flex;
+    align-items: center; 
+    justify-content: center; */
+}
+.main-advantages-subtitle,
+.main-team-subtitle,
 .function-subtitle {
     color: #2E2F42;
     font-size: 20px;
@@ -132,6 +149,7 @@ h1,h2,h3,h4,h5,h6,p {
     letter-spacing: 0.4px;
 }
 .main-advantages-text {
+    margin-top: 8px;
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.32px;
@@ -139,6 +157,10 @@ h1,h2,h3,h4,h5,h6,p {
 /* 3 section our team  */
 .main-team {
     background-color:#F4F4FD;
+    padding: 120px 0;
+}
+.main-team-title{
+    margin-bottom: 72px;
 }
 .main-team-title,
 .function-title {
@@ -151,11 +173,16 @@ h1,h2,h3,h4,h5,h6,p {
     letter-spacing: 0.72px;
 }
 .main-team-list {
+    display: flex;
+    align-items: center;
+    width: calc((100%-3*24px)/4);
+    gap: 24px;   
 }
 .main-team-imam {
     background-color: #fff;
 }
 .main-team-foto {
+    display: block;
 }
 .main-team-subtitle,
 .main-team-text {
@@ -168,22 +195,35 @@ h1,h2,h3,h4,h5,h6,p {
     letter-spacing: 0.32px;
 }
 /* 4 section function   */
-.function {
+.function-title {
+    padding-top: 120px;
+    margin-bottom: 72px;
 }
 .function-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 48px 24px;
 }
 .function-item {
+    width: calc((100%-24*2)/3);
 }
 .function-picture {
+    display: block;
 }
 .footer-page {
+    padding: 100px 0;
     background-color: #2E2F42;
 }
 .footer-text {
+    max-width: 264px;
+    margin-top: 16px;
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.32px;
+}
+.footer-logo {
 }
 .footer-logo .logo-part {
     color:#F4F4FD;
