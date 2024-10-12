@@ -232,7 +232,7 @@ h1,h2,h3,h4,h5,h6,p {
 .function-picture {
     display: block;
 }
-.function-dopconteiner{
+.function-dopcontainer{
     /* padding: 24px 0; */
     padding: 32px 16px;
     border: 1px solid #e7e9fc; 
@@ -241,18 +241,20 @@ h1,h2,h3,h4,h5,h6,p {
     margin-bottom: 8px;
 }
 .footer-page {
+    display: inline-block;
     padding: 100px 0;
     background-color: #2E2F42;
 }
 .footer-text {
     max-width: 264px;
-    margin-top: 16px;
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.32px;
 }
 .footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-logo .logo-part {
     color:#F4F4FD;
