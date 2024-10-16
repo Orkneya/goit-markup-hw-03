@@ -187,7 +187,6 @@ h1,h2,h3,h4,h5,h6,p {
 .main-team-list {
     display: flex;
     align-items: center;
-    /* width: calc( ( 100% - 72px ) / 4); */
     gap: 24px;   
 }
 .main-team-imam {
@@ -242,7 +241,6 @@ h1,h2,h3,h4,h5,h6,p {
     margin-bottom: 8px;
 }
 .footer-page {
-    display: inline-block;
     padding: 100px 0;
     background-color: #2E2F42;
 }
